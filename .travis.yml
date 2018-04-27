@@ -13,8 +13,8 @@ install:
 - npm run ng-deploy
 - ls -l
 script: 
-- docker build -t dto80/se234-lab10-client .
-- docker push dto80/se234-lab10-client
+- docker build -t mariomans/lab234-lab11-frontend .
+- docker push mariomans/lab234-lab11-frontend
 
 service: docker
 env:
